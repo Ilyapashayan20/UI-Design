@@ -118,12 +118,12 @@ function showslide() {
 }
 
 
-// let interval = setInterval(()=> {
-//     showslide();
-// } , 3000);   
+let interval = setInterval(()=> {
+    showslide();
+} , 3000);   
 
-// slider.addEventListener("mouseover" , ()=> {
-//     clearInterval(interval);    
-// });
+slider.addEventListener("mouseover" , ()=> {
+    clearInterval(interval);    
+});
 
 
